@@ -8,6 +8,10 @@ under [Unreleased]. How releases are cut: [docs/RELEASING.md](docs/RELEASING.md)
 
 ## [Unreleased]
 
+### Fixed
+
+- Torrent downloads through Torznab feeds such as Prowlarr now accept download links that redirect to a magnet link, instead of failing with `unsupported protocol scheme "magnet"`.
+
 ## [3.8.2] - 2026-10-29
 
 In short: a security update to the libraries Mediarium uses to read ebook files. Nothing else changed.
